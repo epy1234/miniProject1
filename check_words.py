@@ -1,3 +1,12 @@
+def longest_words():
+    max_len=0
+    with open(r"C:\Users\epy12\miniProject1\file.txt") as f:
+        words = f.read().split()
+    max_len = len(max(words, key=len))
+    #return [word for word in words if len(word) == max_len]
+    return max_len
+
+
 def word_count():
     Count = 0
 
@@ -9,4 +18,4 @@ def word_count():
                 if word == "Epy":
                     Count+=1
     return Count
-print(word_count())
+print(longest_words())
