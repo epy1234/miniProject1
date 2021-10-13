@@ -7,7 +7,7 @@ def longest_words():
     return max_len
 
 
-def word_count():
+""" def word_count():
     Count = 0
 
     with open(r"C:\Users\epy12\miniProject1\file.txt") as f:
@@ -18,4 +18,4 @@ def word_count():
                 if word == "Epy":
                     Count+=1
     return Count
-print(longest_words())
+ """
